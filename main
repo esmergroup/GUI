@@ -1,0 +1,14 @@
+package java2enterprise;
+import javax.swing.JDialog;
+
+public class main{
+       
+       public static void main(String[] args) {
+             
+             JDialog d = new JDialog((JFrame)null, "Mein Dialog", true);
+             d.setBounds(100, 100, 300, 300);
+             d.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+             d.setVisible(true);
+             System.out.println("Dialog geschlossen");
+       }
+}
