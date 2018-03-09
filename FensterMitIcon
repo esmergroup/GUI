@@ -1,0 +1,15 @@
+public class FensterMitIcon {
+       
+       public static void main(String[] args) {
+             
+             JFrame f = new JFrame():
+             f.setTitle("Fenster");
+             f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+             f.setBounds(100, 100, 500, 500);
+             
+             ImageIcon i = new ImageIcon("Hier den Pfad des Bilds angeben.jpg oder .png");
+             // Java akzeptiert alle Bildformate
+             f.setIconImage(i.getImage());
+             f.setVisible(true);
+       }
+}
